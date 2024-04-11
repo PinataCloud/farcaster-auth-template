@@ -4,8 +4,8 @@ import { PinataFDK } from "pinata-fdk";
 const fdk = new PinataFDK({
   pinata_jwt: process.env.PINATA_JWT as string,
   pinata_gateway: "",
-  appFid: process.env.APP_FID as string,
-  appMnemonic: process.env.DEVELOPER_MNEMONIC,
+  app_fid: process.env.APP_FID as string,
+  app_mnemonic: process.env.DEVELOPER_MNEMONIC,
 });
 
 export async function POST() {
