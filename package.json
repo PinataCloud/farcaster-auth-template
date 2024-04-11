@@ -11,11 +11,11 @@
   "dependencies": {
     "@farcaster/auth-kit": "^0.2.1",
     "next": "14.1.4",
-    "pinata-fdk": "^3.7.1",
+    "pinata-fdk": "^3.7.2",
     "react": "^18",
     "react-dom": "^18",
     "react-qrcode-logo": "^2.9.0",
-    "viem": "^2.9.15"
+    "viem": "^2.9.16"
   },
   "devDependencies": {
     "@types/node": "^20",
