@@ -52,7 +52,7 @@ export default function Home() {
       const pollRes = await pollReq.json();
       const pollStartTime = Date.now();
       while (pollRes.state != "completed") {
-        if (Date.now() - pollStartTime > 60000) {
+        if (Date.now() - pollStartTime > 120000) {
           console.log("Polling timeout reached");
           alert("Request timed out");
           setOpenQR(false);
