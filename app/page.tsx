@@ -120,7 +120,6 @@ export default function Home() {
             logoHeight={50}
             logoPadding={5}
             logoPaddingStyle="square"
-            fgColor="#7C65C1"
             qrStyle="dots"
             eyeRadius={15}
           />
