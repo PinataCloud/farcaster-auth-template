@@ -2,7 +2,20 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 ## Getting Started
 
-First, run the development server:
+First, setup the following environment variables
+
+```
+# Your pinata API key JWT
+PINATA_JWT=
+
+# The App FID that the user is signing into
+APP_FID=
+
+# The App mnemonic phrase that the user is signing into
+DEVELOPER_MNEMONIC=
+```
+
+Then run the development server:
 
 ```bash
 npm run dev
